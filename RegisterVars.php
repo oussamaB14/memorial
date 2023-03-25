@@ -22,7 +22,7 @@ if(!isset($_SESSION['cart']))
 }
 if(isset($_FILES['profileimg']))
 {
-    $_SESSION['primg']=$_FILES['profileimg'];
+//    $_SESSION['img']=$_FILES['profileimg'];
     move_uploaded_file($_FILES['profileimg']['tmp_name'],"images/Account/".$_FILES['profileimg']['name']);
     $q=mysqli_query($conn,"UPDATE registrations SET img='".$_FILES['profileimg']['name']."' WHERE email = '".$_SESSION['email']."'");
 }

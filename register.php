@@ -8,9 +8,7 @@ $exists=false;
 
 if($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    // Include file which makes the
-    // Database Connection.
-    include 'dbcon.php';
+
 
     $nom = $_POST["nom"];
     $prenom = $_POST["prenom"];
@@ -55,8 +53,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
         $exists="Username not available";
     }
 
-}//end if
-
+}*///end if*/
 ?>
 <!DOCTYPE html>
 <!-- Created By CodingLab - www.codinglabweb.com -->
