@@ -24,8 +24,9 @@ session_start();
       <!-- bootstrap css -->
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <!-- style css -->
-      <link rel="stylesheet" href="css/books.scss">
+      <link rel="stylesheet" href="css/books.css">
       <link rel="stylesheet" href="css/style.css">
+
 
       <!-- Responsive-->
       <link rel="stylesheet" href="css/responsive.css">
@@ -93,224 +94,6 @@ session_start();
             </div>
          </div>
       </div>
-      <!--Books -->
-<!--      <div class="row mt-2 g-4">-->
-<!--         <div class="col-md-3">-->
-<!--            <div class="card p-1">-->
-<!--               <div class="d-flex justify-content-between align-items-center p-2">-->
-<!--                  <div class="flex-column lh-1 imagename"> <span>Mobile</span> <span>Phones</span> </div>-->
-<!--                  <div> <img src="https://i.imgur.com/b9zkoz0.jpg" height="100" width="100" /> </div>-->
-<!--               </div>-->
-<!--            </div>-->
-<!--         </div>-->
-<!--         <div class="col-md-3">-->
-<!--            <div class="card p-2">-->
-<!--               <div class="d-flex justify-content-between align-items-center p-2">-->
-<!--                  <div class="flex-column lh-1 imagename"> <span>Head</span> <span>Phones</span> </div>-->
-<!--                  <div> <img src="https://i.imgur.com/SHWASPG.png" height="100" width="100" /> </div>-->
-<!--               </div>-->
-<!--            </div>-->
-<!--         </div>-->
-<!--         <div class="col-md-3">-->
-<!--            <div class="card p-2">-->
-<!--               <div class="d-flex justify-content-between align-items-center p-2">-->
-<!--                  <div class="flex-column lh-1 imagename"> <span>Smart</span> <span>Watches</span> </div>-->
-<!--                  <div> <img src=" https://i.imgur.com/Ya0OXCv.png" height="100" width="100" /> </div>-->
-<!--               </div>-->
-<!--            </div>-->
-<!--         </div>-->
-<!--         <div class="col-md-3">-->
-<!--            <div class="card p-2">-->
-<!--               <div class="d-flex justify-content-between align-items-center p-2">-->
-<!--                  <div class="flex-column lh-1 imagename"> <span>Air</span> <span>Purifiers</span> </div>-->
-<!--                  <div> <img src="https://i.imgur.com/2gvGwbh.png" height="100" width="100" /> </div>-->
-<!--               </div>-->
-<!--            </div>-->
-<!--         </div>-->
-<!--         <div class="col-md-3">-->
-<!--            <div class="card p-2tr5">-->
-<!--               <div class="d-flex justify-content-between align-items-center p-2">-->
-<!--                  <div class="flex-column lh-1 imagename"> <span>Vacuum</span> <span>Cleaners</span> </div>-->
-<!--                  <div> <img src="https://i.imgur.com/UMQJpSG.png" height="100" width="100" /> </div>-->
-<!--               </div>-->
-<!--            </div>-->
-<!--         </div>-->
-<!--         <div class="col-md-3">-->
-<!--            <div class="card p-2">-->
-<!--               <div class="d-flex justify-content-between align-items-center p-2">-->
-<!--                  <div class="flex-column lh-1 imagename"> <span>Washing</span> <span>Machines</span> </div>-->
-<!--                  <div> <img src="https://i.imgur.com/e9CyhXR.png" height="100" width="100" /> </div>-->
-<!--               </div>-->
-<!--            </div>-->
-<!--         </div>-->
-<!--         <div class="col-md-3">-->
-<!--            <div class="card p-2">-->
-<!--               <div class="d-flex justify-content-between align-items-center p-2">-->
-<!--                  <div class="flex-column lh-1 imagename"> <span>Smart</span> <span>Televisions</span> </div>-->
-<!--                  <div> <img src=" https://i.imgur.com/Zq8VigZ.png" height="100" width="100" /> </div>-->
-<!--               </div>-->
-<!--            </div>-->
-<!--         </div>-->
-<!--         <div class="col-md-3">-->
-<!--            <div class="card p-2">-->
-<!--               <div class="d-flex justify-content-between align-items-center p-2">-->
-<!--                  <div class="flex-column lh-1 imagename"> <span>Laptops</span> </div>-->
-<!--                  <div> <img src="https://i.imgur.com/6pK5oZl.jpg" height="100" width="100" /> </div>-->
-<!--               </div>-->
-<!--            </div>-->
-<!--         </div>-->
-<!--      </div>-->
-      <div class="container bg-light rounded">
-         <div class="h4 font-weight-bold text-center py-3">Explore more</div>
-         <div class="row">
-            <div class="col-lg-4 col-md-6 my-lg-0 my-3">
-               <div class="box bg-white">
-                  <div class="d-flex align-items-center">
-                     <div
-                             class="rounded-circle mx-3 text-center d-flex align-items-center justify-content-center blue">
-                        <img src="https://freepngimg.com/thumb/microphone/11-microphone-png-image-thumb.png" alt="">
-                     </div>
-                     <div class="d-flex flex-column">
-                        <b>Public Speech</b>
-                        <a href="#">
-                           <p class="text-muted">23 classes</p>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-4 col-md-6 my-lg-0 my-3">
-               <div class="box bg-white">
-                  <div class="d-flex align-items-center">
-                     <div class="rounded-circle mx-3  d-flex align-items-center justify-content-center pale-orange">
-                        <img src="https://freepngimg.com/thumb/email_marketing/5-2-email-png-thumb.png" alt="">
-                     </div>
-                     <div class="d-flex flex-column">
-                        <b>Write an email</b>
-                        <a href="#">
-                           <p class="text-muted">5 classes</p>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-4 col-md-6 my-lg-0 my-3">
-               <div class="box bg-white">
-                  <div class="d-flex align-items-center">
-                     <div class="rounded-circle mx-3  d-flex align-items-center justify-content-center pale-purple">
-                        <img src="https://freepngimg.com/thumb/technology/40061-1-machining-robot-download-free-image-thumb.png"
-                             alt="">
-                     </div>
-                     <div class="d-flex flex-column">
-                        <b>Technology</b>
-                        <a href="#">
-                           <p class="text-muted">32 classes</p>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-4 col-md-6 my-lg-3 my-3">
-               <div class="box bg-white">
-                  <div class="d-flex align-items-center">
-                     <div class="rounded-circle mx-3  d-flex align-items-center justify-content-center pale-cyan">
-                        <img src="https://freepngimg.com/thumb/brain/80003-learning-human-albert-play-scientist-behavior-einstein-thumb.png"
-                             alt="">
-                     </div>
-                     <div class="d-flex flex-column">
-                        <b>Professions</b>
-                        <a href="#">
-                           <p class="text-muted">5 classes</p>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-4 col-md-6 my-lg-3 my-3">
-               <div class="box bg-white">
-                  <div class="d-flex align-items-center">
-                     <div class="rounded-circle mx-3  d-flex align-items-center justify-content-center pale-pink">
-                        <img src="https://freepngimg.com/thumb/google/66809-google-docs-drive-plus-android-document-thumb.png"
-                             alt="">
-                     </div>
-                     <div class="d-flex flex-column">
-                        <b>Documentation</b>
-                        <a href="#">
-                           <p class="text-muted">6 classes</p>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-4 col-md-6 my-lg-3 my-3">
-               <div class="box bg-white">
-                  <div class="d-flex align-items-center">
-                     <div class="rounded-circle mx-3  d-flex align-items-center justify-content-center pale-orange">
-                        <img src="https://www.freepnglogos.com/uploads/plane-png/plane-png-fort-wayne-international-airport-2.png"
-                             alt="">
-                     </div>
-                     <div class="d-flex flex-column">
-                        <b>Business Trip</b>
-                        <a href="#">
-                           <p class="text-muted">28 classes</p>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-4 col-md-6 my-lg-0 my-3">
-               <div class="box bg-white">
-                  <div class="d-flex align-items-center">
-                     <div class="rounded-circle mx-3  d-flex align-items-center justify-content-center pale-orange">
-                        <img src="https://www.freepnglogos.com/uploads/whatsapp-circle-message-messaging-messenger-round-icon--24.png"
-                             alt="">
-                     </div>
-                     <div class="d-flex flex-column">
-                        <b>On the Phone</b>
-                        <a href="#">
-                           <p class="text-muted">5 classes</p>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-4 col-md-6 my-lg-0 my-3">
-               <div class="box bg-white">
-                  <div class="d-flex align-items-center">
-                     <div class="rounded-circle mx-3  d-flex align-items-center justify-content-center pale-green">
-                        <img src="https://freepngimg.com/thumb/technology/63219-bin-recycling-computer-recycle-electronics-waste-electronic-thumb.png" alt="">
-                     </div>
-                     <div class="d-flex flex-column">
-                        <b>Electronics</b>
-                        <a href="#">
-                           <p class="text-muted">5 classes</p>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-4 col-md-6 my-lg-0 my-3">
-               <div class="box bg-white">
-                  <div class="d-flex align-items-center">
-                     <div class="rounded-circle mx-3  d-flex align-items-center justify-content-center pale-pista">
-                        <img src="https://freepngimg.com/thumb/happy_person/4-2-happy-person-transparent-thumb.png"
-                             alt="">
-                     </div>
-                     <div class="d-flex flex-column">
-                        <b>Job Interview</b>
-                        <a href="#">
-                           <p class="text-muted">5 classes</p>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="container mt-5 mb-5">
-         <div class="d-flex justify-content-center row">
-            <div class="col-md-10">
-               <div class="row p-2 bg-white border rounded">
                    <?php
                         $sql="select * from books";
                         $result=mysqli_query($conn,$sql);
@@ -344,95 +127,64 @@ session_start();
                                 $_SESSION['coverImg']=@$row['coverImg'];
                                 $_SESSION['bbeScore']=@$row['bbeScore'];
                                 $_SESSION['price']=@$row['price'];?>
-                    /////////// here /////////////////////////////////
+      <div class="container d-flex justify-content-center mt-50 mb-50">
 
-                   <h1>TRY THIS</h1>
-                   <div class="container mt-5 mb-5">
-                       <div class="d-flex justify-content-center row">
-                           <div class="col-md-10">
-                               <div class="row p-2 bg-white border rounded">
-                                   <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image" src="https://i.imgur.com/QpjAiHq.jpg"></div>
-                                   <div class="col-md-6 mt-1">
-                                       <h5>Quant olap shirts</h5>
-                                       <div class="d-flex flex-row">
-                                           <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><span>310</span>
-                                       </div>
-                                       <div class="mt-1 mb-1 spec-1"><span>100% cotton</span><span class="dot"></span><span>Light weight</span><span class="dot"></span><span>Best finish<br></span></div>
-                                       <div class="mt-1 mb-1 spec-1"><span>Unique design</span><span class="dot"></span><span>For men</span><span class="dot"></span><span>Casual<br></span></div>
-                                       <p class="text-justify text-truncate para mb-0">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.<br><br></p>
-                                   </div>
-                                   <div class="align-items-center align-content-center col-md-3 border-left mt-1">
-                                       <div class="d-flex flex-row align-items-center">
-                                           <h4 class="mr-1">$13.99</h4><span class="strike-text">$20.99</span>
-                                       </div>
-                                       <h6 class="text-success">Free shipping</h6>
-                                       <div class="d-flex flex-column mt-4"><button class="btn btn-primary btn-sm" type="button">Details</button><button class="btn btn-outline-primary btn-sm mt-2" type="button">Add to wishlist</button></div>
-                                   </div>
-                               </div>
-                               /////////////////////////////////aaaaaaaaa//////////////////////////////////
-                                <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image" src="<?php echo $_SESSION['coverImg'];?>"></div>
-                                          <div class="col-md-6 mt-1">
-                                             <h5><?php echo $_SESSION['title']?></h5>
-                                             <div class="d-flex flex-row">
-                                                <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><span>310</span>
-                                             </div>
-                                             <div class="mt-1 mb-1 spec-1"><span><?php echo $_SESSION['rating'];?></span><span class="dot"></span><span><?php echo $_SESSION['genre']?></span><span class="dot"></span><span>Best finish<br></span></div>
-                                             <div class="mt-1 mb-1 spec-1"><span><?php echo $_SESSION['author'];?></span><span class="dot"></span><span><?php echo $_SESSION['edition']?></span><span class="dot"></span><span>Casual<br></span></div>
-                                             <p class="text-justify text-truncate para mb-0"><?php echo $_SESSION['desc'];?><br><br></p>
-                                          </div>
-                                          <div class="align-items-center align-content-center col-md-3 border-left mt-1">
-                                             <div class="d-flex flex-row align-items-center">
-                                                <h4 class="mr-1"><?php echo $_SESSION['price'];?></h4><span class="strike-text">$20.99</span>
-                                             </div>
-                                             <h6 class="text-success"><?php echo $_SESSION['setting'];?>></h6>
-                                             <div class="d-flex flex-column mt-4"><button class="btn btn-primary btn-sm" type="button">Details</button><button class="btn btn-outline-primary btn-sm mt-2" type="button">Add to wishlist</button></div>
-                                          </div>
-                                       </div>
+          <div class="row">
+              <div class="col-md-10">
 
-                                    </div>
-                                 </div>
-      </div>                <?php }}?>
-<!--      <div class="Books">-->
-<!--         <div class="container">-->
-<!--            <div class="row">-->
-<!--               <div class="col-md-10 offset-md-1">-->
-<!--                  <div class="titlepage">-->
-<!--                     <span>adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</span> -->
-<!--                  </div>-->
-<!--               </div>-->
-<!--            </div>-->
-<!--            <div class="row box">-->
-<!--               <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">-->
-<!--                  <div class="book-box">-->
-<!--                     <figure><img src="images/book-1.jpg" alt="img"/></figure>-->
-<!--                  </div>-->
-<!--               </div>-->
-<!--               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">-->
-<!--                  <div class="book-box">-->
-<!--                     <figure><img src="images/book-2.jpg" alt="img"/></figure>-->
-<!--                  </div>-->
-<!--               </div>-->
-<!--               <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">-->
-<!--                  <div class="book-box">-->
-<!--                     <figure><img src="images/book-1.jpg" alt="img"/></figure>-->
-<!--                  </div>-->
-<!--               </div>-->
-<!--               <div class="col-md-6 offset-md-3">-->
-<!--                  <p>magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris</p>-->
-<!--               </div>-->
-<!--            </div>-->
-<!--            <div class="container">-->
-<!--               <div class="row">-->
-<!--                  <div class="col-md-12">-->
-<!--                     <div class="read-more">-->
-<!--                        <a href="#">Read More</a>-->
-<!--                     </div>-->
-<!--                  </div>-->
-<!--               </div>-->
-<!--            </div>-->
-<!--         </div>-->
-<!--      </div>-->
-      <!-- end Books -->
+                  <div class="card card-body">
+                      <div class="media align-items-center align-items-lg-start text-center text-lg-left flex-column flex-lg-row">
+                          <div class="mr-2 mb-3 mb-lg-0">
+
+                              <img src="<?php echo $_SESSION['coverImg'];?>" width="150" height="150" alt="">
+
+                          </div>
+
+                          <div class="media-body">
+                              <h6 class="media-title font-weight-semibold">
+                                  <a href="#" data-abc="true"><?php echo $_SESSION['title']?></a>
+                              </h6>
+
+                              <ul class="list-inline list-inline-dotted mb-3 mb-lg-2">
+                                  <li class="list-inline-item"><a href="#" class="text-muted" data-abc="true">by <?php echo $_SESSION['author'];?></a></li>
+                                  <li class="list-inline-item"><a href="#" class="text-muted" data-abc="true">Mobiles</a></li>
+                              </ul>
+
+                              <p class="mb-3"><?php echo $_SESSION['desc'];?></p>
+
+                              <ul class="list-inline list-inline-dotted mb-0">
+                                  <li class="list-inline-item">All items from <a href="#" data-abc="true">Mobile point</a></li>
+                                  <li class="list-inline-item">Add to <a href="#" data-abc="true">wishlist</a></li>
+                              </ul>
+                          </div>
+
+                          <div class="mt-3 mt-lg-0 ml-lg-3 text-center">
+                              <h3 class="mb-0 font-weight-semibold">$<?php echo $_SESSION['price'];?></h3>
+
+                              <div>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+
+                              </div>
+
+                              <div class="text-muted">1985 reviews</div>
+
+                              <button type="button" class="btn btn-warning mt-4 text-white"><i class="icon-cart-add mr-2"></i> Add to cart</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+
+
+          </div>
+      </div>
+      </div>
+
+                            <?php }}?>
+
       <!-- footer -->
       <footer>
          <div class="footer">

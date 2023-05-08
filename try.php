@@ -24,7 +24,7 @@ session_start();
     <!-- bootstrap css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- style css -->
-    <link rel="stylesheet" href="css/books.scss">
+    <link rel="stylesheet" href="css/books.css">
 <!--    <link rel="stylesheet" href="css/style.css">-->
 
     <!-- Responsive-->
